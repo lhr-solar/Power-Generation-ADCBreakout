@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS131M04QPWRQ1
+D Analog to Digital Converters - ADC Automotive, four-channel, 24-bit, 64-kSPS, simultaneous-sampling, delta-sigma ADC
+K
+F https://www.ti.com/lit/ds/symlink/ads131m04-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1674029679446&ref_url=https%253A%252F%252Fwww.mouser.de%252F
+$ENDCMP
+#
+#End Doc Library
