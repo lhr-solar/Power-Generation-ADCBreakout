@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c2f67899-b13b-465e-9c4c-85240262cdf4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 218.44 19.05)
+		(size 55.88 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2aace7a6-f0b3-4757-ba30-29db9b02efa0")
+		(property "Sheetname" "InputOutput"
+			(at 218.44 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "InputOutput.kicad_sch"
+			(at 218.44 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Next_Gen MPPT"
+				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 67.31)
+		(size 49.53 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a478c664-d79e-4d1a-b3c9-ba81d698a68c")
+		(property "Sheetname" "ADC"
+			(at 223.52 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 223.52 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Next_Gen MPPT"
+				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.98 118.11)
+		(size 54.61 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b373852f-5e28-464e-92a9-a069d98f867c")
+		(property "Sheetname" "Sensors"
+			(at 220.98 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 220.98 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Next_Gen MPPT"
+				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
