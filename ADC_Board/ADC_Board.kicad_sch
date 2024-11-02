@@ -3949,6 +3949,17 @@
 		)
 		(uuid "09ad7633-a44d-4cb0-9516-8f0f0cc8b3fd")
 	)
+	(label "BATTERY+"
+		(at 55.88 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "093e6351-90b9-47e9-bfa0-cb2bc6e0dc51")
+	)
 	(label "MOSI"
 		(at 41.91 95.25 180)
 		(fields_autoplaced yes)
@@ -3959,6 +3970,17 @@
 			(justify right bottom)
 		)
 		(uuid "0afdc81b-1726-41fd-b6b7-104dc181f67f")
+	)
+	(label "ARR+"
+		(at 27.94 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c037640-ac65-496a-aad5-94767dc7bad7")
 	)
 	(label "ARRAY_CURRENT-"
 		(at 228.6 96.52 180)
@@ -4136,6 +4158,17 @@
 		)
 		(uuid "82d139d4-3855-45b9-a309-1ab26b75e159")
 	)
+	(label "ARR-"
+		(at 41.91 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89273b64-d85b-4081-84fc-ebf9a3f05ed0")
+	)
 	(label "SPI_CLOCK"
 		(at 67.31 110.49 0)
 		(fields_autoplaced yes)
@@ -4267,6 +4300,17 @@
 			(justify right bottom)
 		)
 		(uuid "c4579f01-4fe0-41a6-97fd-47c9f623b7c0")
+	)
+	(label "BATTERY-"
+		(at 69.85 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5ec4dc5-5534-48d3-ac07-100cd590b548")
 	)
 	(label "BATTERY-"
 		(at 58.42 55.88 0)
