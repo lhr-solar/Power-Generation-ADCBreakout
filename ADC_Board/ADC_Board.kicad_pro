@@ -430,16 +430,8 @@
       "Root"
     ],
     [
-      "b373852f-5e28-464e-92a9-a069d98f867c",
-      "Sensors"
-    ],
-    [
-      "a478c664-d79e-4d1a-b3c9-ba81d698a68c",
-      "ADC"
-    ],
-    [
-      "2aace7a6-f0b3-4757-ba30-29db9b02efa0",
-      "InputOutput"
+      "165319c5-7975-442a-9dd1-2afd76ad42a5",
+      "Array_Sensors"
     ]
   ],
   "text_variables": {}
