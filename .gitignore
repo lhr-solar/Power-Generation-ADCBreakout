@@ -30,7 +30,7 @@ fp-info-cache
 *.log
 
 # Backup files
-BPS-Minion-backups/
+*-backups/
 
 # Mac Specific
 .DS_Store
