@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISO7762FDWR
+D Digital Isolators Robust EMC, six-channel, 4/2, reinforced digital isolator 16-SOIC -55 to 125
+K
+F https://www.ti.com/lit/ds/symlink/iso7762.pdf?ts=1635769617498&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FISO7762
+$ENDCMP
+#
+#End Doc Library
