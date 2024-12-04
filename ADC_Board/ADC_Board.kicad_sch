@@ -480,124 +480,22 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_02x01_Row_Letter_Last"
+		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 2.54 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x01_Row_Letter_Last"
-				(at 1.27 -2.54 0)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -622,13 +520,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x01, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x01, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -640,7 +546,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -649,69 +555,41 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x01_Row_Letter_Last_1_1"
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
-					(start -1.27 0.127)
+					(start 0.8636 0.127)
 					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 3.81 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 3.81)
-					(name "Pin_1a"
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_1b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1b"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3381,12 +3259,6 @@
 		(uuid "8d613f44-139f-46e2-85ff-5cb8956d3bd6")
 	)
 	(junction
-		(at 99.06 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95b05876-733d-412a-b838-e7556a292d07")
-	)
-	(junction
 		(at 41.91 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3982,16 +3854,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 67.31) (xy 59.69 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aac1806-8212-4cb4-8c73-339e957025fe")
-	)
-	(wire
-		(pts
 			(xy 90.17 115.57) (xy 93.98 115.57)
 		)
 		(stroke
@@ -3999,16 +3861,6 @@
 			(type default)
 		)
 		(uuid "8d3669f7-45f2-4e03-945e-6f29f812f017")
-	)
-	(wire
-		(pts
-			(xy 95.25 59.69) (xy 99.06 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8de2e78e-1d9d-480f-93b1-1a6663e60fcf")
 	)
 	(wire
 		(pts
@@ -4059,16 +3911,6 @@
 			(type default)
 		)
 		(uuid "9a177980-0c53-4c47-8e39-281cacf2780d")
-	)
-	(wire
-		(pts
-			(xy 59.69 67.31) (xy 59.69 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a69306f-d66c-464e-9ed9-e05e8e29dc38")
 	)
 	(wire
 		(pts
@@ -4470,8 +4312,38 @@
 		)
 		(uuid "09ad7633-a44d-4cb0-9516-8f0f0cc8b3fd")
 	)
-	(label "BATTERY+"
-		(at 55.88 24.13 0)
+	(text "ARRAY_INPUT\n"
+		(exclude_from_sim no)
+		(at 33.782 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80ce1430-1da0-4de0-91aa-563fdabf4c25")
+	)
+	(text "5V_INPUT"
+		(exclude_from_sim no)
+		(at 33.528 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8e3db33-e5d4-4c0d-bfe0-d4f048a9d36c")
+	)
+	(text "BATTERY_INPUT\n\n"
+		(exclude_from_sim no)
+		(at 33.782 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd6919b6-1fdb-4212-94ef-5fd19f293c6a")
+	)
+	(label "ARR-"
+		(at 41.91 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4479,7 +4351,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "093e6351-90b9-47e9-bfa0-cb2bc6e0dc51")
+		(uuid "008fe137-e9fc-4ced-a7dc-b69d8bb0b055")
 	)
 	(label "MOSI_I"
 		(at 195.58 41.91 180)
@@ -4491,17 +4363,6 @@
 			(justify right bottom)
 		)
 		(uuid "0afdc81b-1726-41fd-b6b7-104dc181f67f")
-	)
-	(label "ARR+"
-		(at 27.94 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c037640-ac65-496a-aad5-94767dc7bad7")
 	)
 	(label "SYNC{slash}RESET_I"
 		(at 187.96 123.19 0)
@@ -4525,6 +4386,17 @@
 		)
 		(uuid "2cf2774b-6da5-4ba4-ab92-bbf8c80d0f7c")
 	)
+	(label "BATTERY+"
+		(at 21.59 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "364d8854-237b-43f7-a38f-cd1b886d58d4")
+	)
 	(label "ARRAY_CURRENT+"
 		(at 33.02 115.57 180)
 		(fields_autoplaced yes)
@@ -4535,17 +4407,6 @@
 			(justify right bottom)
 		)
 		(uuid "3771e37f-f5e2-4b7d-88ef-57839fbe474f")
-	)
-	(label "ARR-"
-		(at 58.42 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a9e14ce-53f0-441a-a207-cc28022bebd5")
 	)
 	(label "ADC_DRIVER_CLK_I"
 		(at 187.96 130.81 0)
@@ -4602,17 +4463,6 @@
 		)
 		(uuid "524705a0-8e96-42c2-95a5-1e674e529cd5")
 	)
-	(label "ARR+"
-		(at 45.72 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "57dc4dfc-c43a-4d3d-ae2a-2182c625752e")
-	)
 	(label "MISO_I"
 		(at 187.96 120.65 0)
 		(fields_autoplaced yes)
@@ -4623,6 +4473,17 @@
 			(justify left bottom)
 		)
 		(uuid "59025369-f315-4711-999a-2de228f3b262")
+	)
+	(label "ARR+"
+		(at 21.59 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5da2ad94-b4f1-45b3-950a-1f5ecd65448e")
 	)
 	(label "SYNC{slash}RESET_I"
 		(at 195.58 46.99 180)
@@ -4734,8 +4595,8 @@
 		)
 		(uuid "82d139d4-3855-45b9-a309-1ab26b75e159")
 	)
-	(label "ARR-"
-		(at 41.91 24.13 0)
+	(label "BATTERY-"
+		(at 41.91 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4743,7 +4604,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "89273b64-d85b-4081-84fc-ebf9a3f05ed0")
+		(uuid "83aa3344-e929-492e-883d-df871a98a9d1")
 	)
 	(label "SPI_CLOCK_I"
 		(at 220.98 57.15 0)
@@ -4854,39 +4715,6 @@
 			(justify right bottom)
 		)
 		(uuid "c192c5df-5044-4bc3-8572-21c977009396")
-	)
-	(label "BATTERY+"
-		(at 45.72 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c4579f01-4fe0-41a6-97fd-47c9f623b7c0")
-	)
-	(label "BATTERY-"
-		(at 69.85 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5ec4dc5-5534-48d3-ac07-100cd590b548")
-	)
-	(label "BATTERY-"
-		(at 58.42 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6962332-0952-4eed-b8ba-ff66a20c687f")
 	)
 	(label "ARR+"
 		(at 228.6 99.06 180)
@@ -5154,141 +4982,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "229650ba-4590-4e59-a77c-181b301502e0")
-		(property "Reference" "C6"
-			(at 91.44 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 91.44 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 58.7248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 91.44 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2bdee612-86d7-43ac-9eb5-b17515c3c0bc")
-		)
-		(pin "1"
-			(uuid "122ec243-9f50-425b-b1da-06ede6f8101b")
-		)
-		(instances
-			(project ""
-				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 27.94 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27f0e942-fe60-41e6-8d6f-a1c38b38dcd8")
-		(property "Reference" "ARR+"
-			(at 30.48 19.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 30.48 22.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 27.94 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a816e9fd-be76-4b86-b7f2-c9a6144cf3d4")
-		)
-		(instances
-			(project ""
-				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "ARR+")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 154.94 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5315,7 +5008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 155.9052 152.4 0)
 			(effects
 				(font
@@ -5383,7 +5076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1030X265-16N"
+		(property "Footprint" "ISO7762FDWR:SOIC127P1030X265-16N"
 			(at 146.05 38.1 0)
 			(effects
 				(font
@@ -5524,6 +5217,72 @@
 			(project ""
 				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 21.59 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c32baed-acae-485b-bae5-1f1ba13297e7")
+		(property "Reference" "#PWR015"
+			(at 21.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 21.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 21.59 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd142239-9b4c-4847-9ced-bc1892119bca")
+		)
+		(instances
+			(project "ADC_Board"
+				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5688,7 +5447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "UTSVT_Special:NucleoL432KC"
 			(at 208.28 57.15 0)
 			(effects
 				(font
@@ -5972,7 +5731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 106.68 104.4448 0)
 			(effects
 				(font
@@ -6009,74 +5768,6 @@
 			(project "ADC_Board"
 				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x01_Row_Letter_Last")
-		(at 50.8 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "500c1ef9-292c-47e3-8182-b1752905eac5")
-		(property "Reference" "BATTERY_INPUT1"
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Banana_Cable_3"
-			(at 52.07 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x01, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1a"
-			(uuid "94929368-e277-4301-90fa-488f3f341189")
-		)
-		(pin "1b"
-			(uuid "9e5f01d7-c6e8-419c-9f79-608fde5dd0ac")
-		)
-		(instances
-			(project "ADC_Board"
-				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "BATTERY_INPUT1")
 					(unit 1)
 				)
 			)
@@ -6150,141 +5841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x01_Row_Letter_Last")
-		(at 50.8 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a792c80-cf8a-4603-b55e-74af7e47eb96")
-		(property "Reference" "5v_Input"
-			(at 52.07 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Banana_Cable_1"
-			(at 52.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x01, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1a"
-			(uuid "c3c50a4d-9fb5-48e4-89f9-6e1ddbe4d8b8")
-		)
-		(pin "1b"
-			(uuid "1672652b-528c-487d-a2cd-6de5a008f4d3")
-		)
-		(instances
-			(project "ADC_Board"
-				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "5v_Input")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 87.63 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61756cb9-d04b-46e4-9568-b1b919e204d1")
-		(property "Reference" "#PWR015"
-			(at 91.44 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 83.82 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 87.63 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7dd4c6e8-2116-40fc-8813-35729f454557")
-		)
-		(instances
-			(project "ADC_Board"
-				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 99.06 33.02 0)
 		(unit 1)
@@ -6303,7 +5859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 102.87 34.2899 0)
 			(effects
 				(font
@@ -6312,7 +5868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.0252 36.83 0)
 			(effects
 				(font
@@ -6446,7 +6002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 161.29 47.2948 0)
 			(effects
 				(font
@@ -6489,6 +6045,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 21.59 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bdf7a2e-c602-4122-a5e1-2a90d674755d")
+		(property "Reference" "J3"
+			(at 22.86 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 22.86 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Connectors:Banana_Jack_1_Pin_4mm"
+			(at 21.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 21.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "307445e2-f645-4a0b-a84a-e5b3b3b3cec2")
+		)
+		(instances
+			(project "ADC_Board"
+				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ISO7762FDWR:ISO7762FDWR")
 		(at 187.96 133.35 180)
 		(unit 1)
@@ -6514,7 +6137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P1030X265-16N"
+		(property "Footprint" "ISO7762FDWR:SOIC127P1030X265-16N"
 			(at 163.83 135.89 0)
 			(effects
 				(font
@@ -6686,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 93.98 116.5352 0)
 			(effects
 				(font
@@ -6754,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 57.15 96.8248 0)
 			(effects
 				(font
@@ -6791,72 +6414,6 @@
 			(project "ADC_Board"
 				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 59.69 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b1365e1-6c8a-4c80-be01-9cbb7207667b")
-		(property "Reference" "#PWR010"
-			(at 59.69 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 59.69 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79f7eae8-baec-4bc5-8021-0c7c91722d2c")
-		)
-		(instances
-			(project ""
-				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6996,6 +6553,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 41.91 20.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "849a713c-0ced-43ef-9b8a-d95f6bc27188")
+		(property "Reference" "J4"
+			(at 43.18 19.6849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 43.18 22.2249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Connectors:Banana_Jack_1_Pin_4mm"
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bde47e17-8ea7-4947-b54d-27dc8abdec47")
+		)
+		(instances
+			(project "ADC_Board"
+				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 41.91 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84a29f03-d8c8-4c9a-a753-26450c804e23")
+		(property "Reference" "J6"
+			(at 43.18 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 43.18 52.7049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Connectors:Banana_Jack_1_Pin_4mm"
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fde881cd-3265-4330-a08f-6671fc19dbcd")
+		)
+		(instances
+			(project "ADC_Board"
+				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 220.98 39.37 270)
 		(unit 1)
@@ -7063,17 +6754,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 55.88 24.13 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 21.59 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ddb96d8-9fea-4d2b-b894-bea17d054027")
-		(property "Reference" "BATTERY+"
-			(at 58.42 19.5579 0)
+		(uuid "aba8eb85-74dd-4647-9087-1858bd705f44")
+		(property "Reference" "J1"
+			(at 22.86 19.6849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7081,8 +6772,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 58.42 22.0979 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 22.86 22.2249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,8 +6781,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 60.96 24.13 0)
+		(property "Footprint" "UTSVT_Connectors:Banana_Jack_1_Pin_4mm"
+			(at 21.59 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7100,7 +6791,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 24.13 0)
+			(at 21.59 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,8 +6799,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 55.88 24.13 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 21.59 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,47 +6809,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "7da25074-f5ed-494c-8558-16a795229963")
+			(uuid "bd634b3a-8088-46eb-bbef-f5b074c3360e")
 		)
 		(instances
-			(project "ADC_Board"
+			(project ""
 				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "BATTERY+")
+					(reference "J1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 41.91 24.13 0)
+		(lib_id "power:GND1")
+		(at 41.91 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e140756-7656-474e-a5eb-343255b8119a")
-		(property "Reference" "ARR-"
-			(at 44.45 19.5579 0)
+		(uuid "ae6bcf94-3c06-41ce-a828-71b6790a2af3")
+		(property "Reference" "#PWR042"
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 44.45 22.0979 0)
+		(property "Value" "GND"
+			(at 41.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 24.13 0)
+			(at 41.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,8 +6856,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 46.99 24.13 0)
+		(property "Datasheet" ""
+			(at 41.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,8 +6865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 41.91 24.13 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 41.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,12 +6875,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e86c4541-9572-4770-90f2-223944d01778")
+			(uuid "59ede30e-c45e-4d1a-b228-38a35f58aa15")
 		)
 		(instances
 			(project "ADC_Board"
 				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "ARR-")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7224,7 +6914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 194.0052 152.4 0)
 			(effects
 				(font
@@ -7466,73 +7156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 45.72 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b97530c7-c468-4f23-9b13-7ef70d14bc97")
-		(property "Reference" "#PWR08"
-			(at 49.53 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 41.91 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 45.72 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "110dbee7-b3b7-40db-aabd-fc4cad991685")
-		)
-		(instances
-			(project ""
-				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 142.24 109.22 0)
 		(unit 1)
@@ -7624,7 +7247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X120-20N"
+		(property "Footprint" "ADS131M04QPWRQ1:SOP65P640X120-20N"
 			(at 86.36 205.41 0)
 			(effects
 				(font
@@ -7971,74 +7594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x01_Row_Letter_Last")
-		(at 50.8 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0127a20-8d81-4e83-8bd1-d49f47331047")
-		(property "Reference" "ARRAY_INPUT1"
-			(at 52.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Banana_Cable_2"
-			(at 52.07 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x01, row letter last pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. 1a, ..., Na; 1b, ..., Nb)), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.8 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1a"
-			(uuid "4fdf314e-f2f8-46bd-a246-2f6bf15e1380")
-		)
-		(pin "1b"
-			(uuid "51bd6006-b457-4b5d-8cf3-bf9ccbcd011b")
-		)
-		(instances
-			(project "ADC_Board"
-				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "ARRAY_INPUT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 232.41 34.29 0)
 		(unit 1)
@@ -8237,17 +7792,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 69.85 24.13 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 41.91 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff410b05-a53e-4b8f-b06b-f033203939f7")
-		(property "Reference" "BATTERY-"
-			(at 72.39 19.5579 0)
+		(uuid "f2265073-359e-4cf4-ba50-8f9cc47e547e")
+		(property "Reference" "J5"
+			(at 43.18 34.9249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,8 +7810,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 72.39 22.0979 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 43.18 37.4649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,8 +7819,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 74.93 24.13 0)
+		(property "Footprint" "UTSVT_Connectors:Banana_Jack_1_Pin_4mm"
+			(at 41.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,7 +7829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 24.13 0)
+			(at 41.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,8 +7837,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 69.85 24.13 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 41.91 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,12 +7847,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "43bc4ce3-7fc0-4622-ad8f-0e6dafbcfe36")
+			(uuid "2b2ea5f4-464c-450d-a954-48ce7c62f33c")
 		)
 		(instances
 			(project "ADC_Board"
 				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "BATTERY-")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 21.59 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f59d8735-86e1-4052-939c-0f800cb5d3f0")
+		(property "Reference" "J2"
+			(at 22.86 34.9249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 22.86 37.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "UTSVT_Connectors:Banana_Jack_1_Pin_4mm"
+			(at 21.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 21.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ae0334e-bcfe-4ab1-aee8-7dda2cb42f0a")
+		)
+		(instances
+			(project "ADC_Board"
+				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
+					(reference "J2")
 					(unit 1)
 				)
 			)
