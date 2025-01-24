@@ -6,6 +6,8 @@ Schematic issues should be nearly hashed out. Have had a lot of people look at i
 
 TODO:  
 -Create new iteration of board layout based on schematic changes and review.  
+-Add fuses to array and battery input
+-Add values to all resistors and fuses
 -Have Fun  
 
 Full documentation can be found in the link below:
