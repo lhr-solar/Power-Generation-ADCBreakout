@@ -4,7 +4,7 @@ This repo holds all hardware design for the 2024-2026 MPPT voltage and current s
 UPDATES:
 Schematic issues should be nearly hashed out. Have had a lot of people look at it now and I feel comfortable moving forward with the layout and printing. 
 
-TODO:
+TODO:  
 -Create new iteration of board layout based on schematic changes and review.  
 -Have Fun  
 
