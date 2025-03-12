@@ -2219,7 +2219,7 @@
 	)
 	(text "0-135V"
 		(exclude_from_sim no)
-		(at 166.37 59.69 0)
+		(at 166.624 58.42 0)
 		(effects
 			(font
 				(size 1 1)
@@ -2333,18 +2333,6 @@
 		)
 		(uuid "4458b7b5-a473-4c53-964a-5ebae54cc994")
 	)
-	(hierarchical_label "+BATT"
-		(shape input)
-		(at 172.72 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "4d143ec4-5963-4057-84cb-53dec33807b4")
-	)
 	(hierarchical_label "ARR_I"
 		(shape input)
 		(at 142.24 118.11 0)
@@ -2368,6 +2356,18 @@
 			(justify left)
 		)
 		(uuid "b9b2c6c3-f3f1-4b34-be2c-fc1ae02dc726")
+	)
+	(hierarchical_label "BATT+_IN"
+		(shape input)
+		(at 172.72 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bafd48b5-bce5-4a21-b16d-965f71f4933e")
 	)
 	(hierarchical_label "BATT_I"
 		(shape input)
@@ -2405,7 +2405,7 @@
 		)
 		(uuid "ec92f1c9-9b5b-48b9-93d1-843b7a2d5f74")
 	)
-	(hierarchical_label "+ARR"
+	(hierarchical_label "+ARR_IN"
 		(shape input)
 		(at 73.66 59.69 180)
 		(fields_autoplaced yes)
@@ -2624,7 +2624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 172.212 64.77 90)
 			(effects
 				(font
@@ -3076,7 +3076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 172.212 77.47 90)
 			(effects
 				(font
@@ -3190,7 +3190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 73.152 76.2 90)
 			(effects
 				(font
@@ -3625,7 +3625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 73.152 63.5 90)
 			(effects
 				(font
@@ -4754,7 +4754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P30.48mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 167.132 121.92 90)
 			(effects
 				(font
@@ -5673,7 +5673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P30.48mm"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 66.802 120.65 90)
 			(effects
 				(font
