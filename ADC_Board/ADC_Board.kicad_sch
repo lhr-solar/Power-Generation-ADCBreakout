@@ -4332,7 +4332,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 186.69) (xy 80.01 184.15)
+			(xy 96.52 186.69) (xy 96.52 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4537,7 +4537,7 @@
 		(uuid "0fa277a3-ae40-4a5f-a4ba-b12545d4aa54")
 	)
 	(label "ARR+_IN"
-		(at 80.01 186.69 0)
+		(at 96.52 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4548,7 +4548,7 @@
 		(uuid "2898bc42-f8d8-468f-872d-0e6a66f7a9be")
 	)
 	(label "ARR+"
-		(at 80.01 176.53 0)
+		(at 96.52 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6394,7 +6394,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 80.01 180.34 0)
+		(at 96.52 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6402,8 +6402,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65607960-98fa-4781-996d-2951dc1276af")
-		(property "Reference" "F1"
-			(at 82.55 179.0699 0)
+		(property "Reference" "5A"
+			(at 99.06 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,8 +6411,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 82.55 181.6099 0)
+		(property "Value" "3568 Fuse"
+			(at 99.06 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6421,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
-			(at 78.232 180.34 90)
+			(at 94.742 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 180.34 0)
+			(at 96.52 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6439,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 80.01 180.34 0)
+			(at 96.52 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +6456,7 @@
 		(instances
 			(project ""
 				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "F1")
+					(reference "5A")
 					(unit 1)
 				)
 			)
@@ -7382,9 +7382,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95cb8ba7-3e7d-4bd7-9068-6f0a20d3a132")
-		(property "Reference" "F2"
+		(property "Reference" "5A"
 			(at 71.12 179.0699 0)
 			(effects
 				(font
@@ -7393,8 +7392,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 71.12 181.6099 0)
+		(property "Value" "3568 Fuse"
+			(at 71.628 182.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +7437,7 @@
 		(instances
 			(project "ADC_Board"
 				(path "/c2f67899-b13b-465e-9c4c-85240262cdf4"
-					(reference "F2")
+					(reference "5A")
 					(unit 1)
 				)
 			)
